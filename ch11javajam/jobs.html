@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JavaJam Coffee House Jobs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="javajam.css">
+	<link rel="icon" href="favicon.ico">
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<h1>JavaJam Coffee House</h1>
+</header>
+<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="menu.html">Menu</a></li>
+	<li><a href="music.html">Music</a></li>
+	<li><a href="jobs.html">Jobs</a></li>
+	</ul>
+</nav>
+<main>
+<h2> Jobs at JavaJam </h2>
+<p>
+Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk *.
+</p>
+<form id="myForm" method="post" action="http://webdevbasics.net/scripts/javajam.php">
+<div>
+	<label for="myName"><span class="red">*</span>Name: </label>
+	<input type="text" name="myName"
+	id="myName"
+	required
+	size="30"
+	maxlength="60">
+</div>
+<div>
+	<label for="email"><span class="red">*</span>Email: </label>
+	<input type="email" name="email"
+	id="email"
+	required
+	size="30"
+	maxlength="60">
+</div>
+<div>
+	<label for="startDate">Start Date: </label>
+	<input type="date" name="startDate"
+	id="startDate">
+</div>
+<div>
+	<label for="myExperience"><span class="red">*</span>Experience: </label>
+	<textarea name="myExperience"
+	id="myExperience"
+	required
+	rows="4"
+	cols="30">
+	</textarea>
+</div>
+<div id="mySubmit">
+<input type="submit" value="Apply Now">
+</div>
+</form>
+</main>
+<footer>
+<p>
+Copyright &copy; 2016 JavaJam Coffee House<br>
+<a href="mailto:ckerr6@mail.dccc.edu">carson@kerr.com</a>
+</p>
+</footer>
+</div>
+</body>
+</html>
